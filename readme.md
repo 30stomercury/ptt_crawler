@@ -25,4 +25,4 @@ python ptt_crawler.py 101 2017 1011 2018
 
 ## keywords
 1. Find the url of articles include keywords (空汙, 廢氣, 空氣品質, 空氣汙染, PM, PM2.5, 空氣質量, Pm2.5, pm2.5, 霧霾, 霾害) in given time interval.
-2. You can augment keywords in line 235."# ptt_crawler" 
+2. You can augment keywords in line 235.
