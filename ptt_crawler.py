@@ -240,7 +240,7 @@ last_date = sys.argv[3]
 last_year = sys.argv[4]
 print('Start searching...')
 # 從url start的列表開始爬
-url_start = 'https://www.ptt.cc/bbs/Gossiping/index38493.html'#find_first_url(start_date, start_year, url)
+url_start = find_first_url(start_date, start_year, url)
 url_end = find_last_url(last_date, last_year, url) 
 print('Start crawling...')
 crawler(url_start, url_end, start_date, last_date)
