@@ -20,7 +20,7 @@ python ptt_crawler.py 101 2017 1011 2018
 + end_year
 
 ## Output
-+ all_articles_ {start_day} _ {end_day}.txt
++ all_articles_{start_day}_{end_day}.txt
 + 檔案內容格式: date,title,URL
 
 ## keywords
